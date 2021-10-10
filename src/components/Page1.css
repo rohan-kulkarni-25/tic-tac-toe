@@ -1,0 +1,65 @@
+
+
+.page1{
+  margin-top: 5rem;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5rem;
+}
+
+.page1 .top{
+  font-family: 'Tourney', cursive;
+  color: black;
+  background-color: white;
+  border-radius: 12px;
+  max-width: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 2rem;
+  gap: 2rem;
+  font-size: 3rem;
+  
+}
+
+.page1 .top p{
+  border-bottom: 2px solid orange;
+  padding: 0.5rem;
+  border-radius: 12px;
+  width: fit-content;
+}
+
+.page1 .center button{
+  background-color: white;
+  border: 0px;
+  font-size: 2rem;
+  padding: 1rem;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 2px 2px 1px 1px rgba(128, 128, 128, 0.3);
+  font-family: 'Federant', cursive;
+}
+
+.page1 .center button:hover{
+  background-color: greenyellow;
+  box-shadow: 2px 2px 1px 1px rgba(128, 128, 128, 0);
+}
+
+.page1 .bottom {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 1rem;
+  font-family: 'Merienda', cursive;
+}
+
+.hide{
+  display: none;
+}

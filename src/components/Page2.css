@@ -1,0 +1,85 @@
+
+.page2{
+  height: fit-content;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+
+}
+
+.page2 .center{
+  width: 80%;
+  height: fit-content;
+  background-color: white;
+  font-size: 1.8rem;
+  padding: 1rem;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 2px 2px 1px 1px rgba(128, 128, 128, 0.3);
+  font-family: 'Federant', cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+.page2 .center input{
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  width: 90%;
+  border-radius: 12px;
+  border: 1px solid orange;
+}
+
+
+.page2 .bottom {
+  margin-top: 2rem;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  text-align: center;
+  padding-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 0.5rem;
+  font-size: 1.8rem;
+  font-family: 'Merienda', cursive;
+}
+
+.page2 .bottom p{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.icon{
+  margin: 1rem;
+  height: 2rem;
+  width: 2rem;
+}
+.vs{
+  margin: 1rem;
+  height: 5rem;
+  width: 5rem;
+}
+
+.page2 .center button{
+  background-color: white;
+  border: 0px;
+  font-size: 1.5rem;
+  padding: 1rem;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 2px 2px 1px 1px rgba(128, 128, 128, 0.3);
+  font-family: 'Federant', cursive;
+}
+
+.page2 .center button:hover{
+  background-color: greenyellow;
+  box-shadow: 2px 2px 1px 1px rgba(128, 128, 128, 0);
+}
+

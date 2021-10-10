@@ -1,0 +1,21 @@
+ .top{
+  font-family: 'Tourney', cursive;
+  color: black;
+  background-color: white;
+  width: 91%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem;
+  font-size: 2.5rem;
+}
+
+.top p{
+  border-bottom: 2px solid orange;
+  border-top: 2px solid orange;
+  padding: 0.5rem;
+  border-radius: 12px;
+  width: fit-content;
+}
